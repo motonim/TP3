@@ -1,0 +1,6 @@
+/* ---------------- */
+/* wrapper / objects */
+/* ---------------- */
+.wrapper {
+  padding: 0 max(15px, var(--space-small));
+}

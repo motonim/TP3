@@ -1,0 +1,81 @@
+
+
+section {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: var(--marg-resp-m);
+}
+section > h2 {
+  margin-bottom: var(--marg-resp-s);
+}
+
+.promotion p {
+  margin: calc(var(--marg-resp-s) / 3) 0;
+}
+.promotion .flex-1thrd h2 {
+  margin-bottom: calc(var(--marg-resp-s) / 2);
+}
+/* carte promotion comprenant texte/titre et image */
+.card-promotion {
+  display: flex;
+  flex-direction: column;
+}
+.card-promotion .img-box {
+  height: max(100%, 80vmin);
+  margin-top: auto;
+}
+.card-promotion .img-box img {
+  object-fit: cover;
+  height: 100%;
+}
+/* diviseur de section visible */
+.border-top {
+  border-top: solid rgba(0, 0, 0, 0.1) 2px;
+  padding-top: var(--rythm-s);
+}
+.center-txt {
+  text-align: center;
+}
+/* divisions contenant un lien ou bouton pour interaction */
+.contact-box {
+  padding: var(--rythm-m);
+  min-width: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-box div > * + * {
+  margin: calc(var(--marg-resp-s) / 3);
+}
+.contact-box form > * + * {
+  margin: 10px;
+}
+.contact-box > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ajustement distance h3 images */
+.restaurant h3 {
+  line-height: calc(var(--marg-resp-s) / 2);
+}
+/*ajustements d'après recommendations prof : limiter la hauteur ne régle pas le probleme une media querry est necessaire dans ce cas ci*/
+@media all and (max-width: 1414px) {
+  .border-top .flex-6rows > * {
+    flex-basis: calc((100% / 4) - var(--rythm-s));
+  }
+}
+
+/*boutons et champs de saisie*/
+
+#champ_adresse {
+  padding: 6px 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+/*---- Hero ----------------------------------------*/
+
+header > figure > div {
+  color: var(--clr-bg);
+}

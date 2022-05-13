@@ -1,0 +1,40 @@
+
+.flex-2thrd.contact-box {
+    background-color: var(--clr-contain);
+  }
+  
+  .flex-1thrd.contact-box {
+    background-color: var(--clr-containSec);
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    align-items: inherit;
+    margin-top: var(--marg-resp-s-neg);
+    margin-left: var(--rythm-s-neg);
+    overflow: hidden;
+  }
+  .flex > * {
+    flex-grow: 1;
+    /* adaptation de la marge entre les cases de la grille */
+    margin-top: var(--marg-resp-s);
+    margin-left: var(--rythm-s);
+  }
+  .flex img {
+    display: block;
+    min-width: 190px;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .flex-2thrd {
+    flex-basis: calc((100% * 2 / 3) - var(--rythm-s));
+  }
+  .flex-1thrd {
+    flex-basis: calc((100% / 3) - var(--rythm-s));
+  }
+  .flex-6rows > * {
+    flex-basis: calc((100% / 6) - var(--rythm-s));
+  }

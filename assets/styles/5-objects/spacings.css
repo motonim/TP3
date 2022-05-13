@@ -1,0 +1,24 @@
+/* ---------------- */
+/* spacings / objects */
+/* ---------------- */
+
+.py-xsmall {
+    padding: var(--space-xsmall) 0;
+  }
+  
+  .py-small {
+    padding: var(--space-small) 0;
+  }
+  
+  .py-medium {
+    padding: var(--space-medium) 0;
+  }
+  
+  .py-large {
+    padding: var(--space-large) 0;
+  }
+  
+  .py-xlarge {
+    padding: var(--space-xlarge) 0;
+  }
+  

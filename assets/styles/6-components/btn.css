@@ -1,0 +1,25 @@
+/* ---------------- */
+/* btn / components */
+/* ---------------- */
+
+.btn {
+    border: 1px var(--clr-bg) solid;
+    background-color: transparent;
+    color: var(--clr-bg);
+    padding: 6px 16px;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: var(--clr-link);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .btn:active {
+    text-decoration: none;
+    opacity: 80%;
+  }
+  

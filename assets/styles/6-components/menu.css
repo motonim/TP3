@@ -1,0 +1,75 @@
+
+.navigation {
+    background-color: var(--clr-bg);
+    text-decoration: none;
+    top: 0;
+    position: sticky;
+  }
+  
+  
+  .menu {
+    align-items: flex-end;
+    padding-right: calc(0.2rem + 0.5vw);
+  }
+
+  
+  .dropdown__content {
+    background-color: var(--clr-bg);
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+
+
+/* Règles générales Menu --------------------  */
+
+
+.menu-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* ************************************ */
+
+.navigation__logo--img {
+  width: var(--marg-resp-m);
+}
+.navigation__logo {
+  padding: 1rem 0;
+}
+
+.menu__item {
+  border-radius: 5rem;
+  color: var(--clr-bgSec);
+  font-weight: 700;
+  margin: 0.5rem;
+  text-transform: uppercase;
+  padding: 0 calc(0.5rem + 0.5vw);
+  font-size: calc(0.5rem + 0.5vw);
+}
+
+.menu__item:hover {
+    background-color: var(--clr-link);
+    color: var(--clr-bg);
+}
+
+/* ***************  Menu déroulant  *************** */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown__item {
+  padding: 0 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown__content {
+  display: block;
+}
+.menu li {
+  list-style-type: none;
+}

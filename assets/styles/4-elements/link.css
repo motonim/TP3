@@ -1,0 +1,48 @@
+/* ---------------- */
+/* link / elements */
+/* ---------------- */
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  color: #07072b;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    opacity: 80%;
+}
+
+
+
+.link-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-bg);
+    opacity: 0;
+    font-size: calc(18px + 0.8vw);
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease-out;
+}
+.link-box:hover,
+.link-box:focus {
+    opacity: 1;
+}
+
+.link-box:active {
+    color: rgba(255, 255, 255, 0.7);
+}

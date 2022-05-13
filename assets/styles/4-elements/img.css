@@ -1,0 +1,12 @@
+/* ---------------- */
+/* img / elements */
+/* ---------------- */
+
+
+img {
+    width: 100%;
+  }
+
+.img-box {
+    position: relative;
+}
