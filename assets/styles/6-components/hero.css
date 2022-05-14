@@ -1,0 +1,17 @@
+.hero {
+    background-image: url(../../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0 auto;
+    color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__text {
+    padding-bottom: 10em;
+}

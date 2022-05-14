@@ -18,6 +18,7 @@
     display: none;
     position: absolute;
     z-index: 2;
+    left: -10px;
   }
 
 
@@ -62,7 +63,7 @@
 }
 
 .dropdown__item {
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
   display: block;
   text-align: center;
 }

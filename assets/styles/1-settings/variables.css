@@ -33,7 +33,7 @@
     --ff-txt: 'Nunito Sans', sans-serif;
 
     /*spacing*/
-    --space-base: 5px;
+    --space-base: max(10px, 1vw);
     --space-xsmall: calc(var(--space-base) * 3);
     --space-small: calc(var(--space-base) * 4);
     --space-medium: calc(var(--space-base) *6);

@@ -16,14 +16,6 @@ form * {
 
 /* things to correct */
 
-.container {
-    justify-content: center;
-    text-align: center;
-  }
-.container img {
-z-index: -1;
-max-height: 600px;
-}  
 
 .centered {
     position: absolute;
