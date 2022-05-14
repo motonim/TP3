@@ -3,7 +3,7 @@
 */
 
 /* 1-SETTINGS  */
-@import url(./1-settings/font.css); /*where to ?*/
+@import url(./1-settings/font.css);
 @import url(./1-settings/variables.css);
 
 /* 2-TOOLS  */
@@ -16,7 +16,7 @@
 @import url(./4-elements/img.css);
 @import url(./4-elements/link.css);
 @import url(./4-elements/list.css);
-@import url(./4-elements/text.css);
+@import url(./4-elements/typo.css);
 
 /* 5-OBJECTS  */
 @import url(./5-objects/bg.css);
@@ -29,10 +29,8 @@
 @import url(./6-components/footer.css);
 @import url(./6-components/grid.css);
 @import url(./6-components/menu.css);
-@import url(./6-components/text-image.css);
-@import url(./6-components/tile.css);
-@import url(./6-components/title.css);
-@import url(./6-components/theRest.css);
 @import url(./6-components/hero.css);
+@import url(./6-components/border.css);
+@import url(./6-components/contact.css);
 
 /* 7-UTILITIES  */

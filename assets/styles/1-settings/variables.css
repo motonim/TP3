@@ -3,24 +3,6 @@
 /* ---------------- */
 
 :root {
-    /*rythmes*/
-    /* Rythme de base (gouttière normale) */
-    --rythm-s: 1.65rem;
-    --rythm-s-neg: -1.65rem;
-    /* Rythme élargi (gouttière large) */
-    --rythm-m: 2.5rem;
-    --rythm-m-neg: -2.5rem;
-    /* Rythme espacé */
-    --rythm-l: 5rem;
-    --rythm-l-neg: -5rem;
-    /* Rythme trés espacé */
-    --rythm-xl: 10rem;
-    /* Rythme marges adaptives */
-    --marg-resp-s: calc(var(--rythm-m) + 2.2vw);
-    --marg-resp-m: calc(var(--rythm-l) + 2.5vw);
-    --marg-resp-s-neg: calc(var(--rythm-m-neg) - 2.2vw);
-    --marg-resp-m-neg: calc(var(--rythm-l-neg) - 2.5vw);
-
     /*Palette de couleurs */
     --clr-contain: #5D707F;
     --clr-containSec: #6D8A96;
@@ -34,15 +16,14 @@
 
     /*spacing*/
     --space-base: max(10px, 1vw);
-    --space-xsmall: calc(var(--space-base) * 3);
+    --space-xsmall: calc(var(--space-base) * 2);
     --space-small: calc(var(--space-base) * 4);
-    --space-medium: calc(var(--space-base) *6);
+    --space-medium: calc(var(--space-base) * 6);
     --space-large: calc(var(--space-base) * 12);
     --space-xlarge: calc(var(--space-base) * 24);
 
     /*font-size*/
     --font-size-default: 16px;
-
   }
 
   @media only screen and (min-width: 768px) {

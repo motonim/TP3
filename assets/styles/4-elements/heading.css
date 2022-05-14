@@ -7,18 +7,5 @@
 h1,
 h2,
 h3 {
-    font-family: var(--ff-title);
-  line-height: calc(var(--marg-resp-s) / 2);
+  font-family: var(--ff-title);
 }
-
-/* taille polices augmentée dans une péspective d'améliorer l'accessibilité */
-h1 {
-  font-size: calc(20px + 0.8vw);
-}
-h2 {
-  font-size: calc(18px + 0.6vw);
-}
-h3 {
-  font-size: calc(16px + 0.5vw);
-}
-

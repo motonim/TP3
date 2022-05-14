@@ -22,18 +22,6 @@
   padding: 0;
 }
 
-::-moz-selection {
-  background-color: #07072b;
-  color: white;
-  text-shadow: none;
-}
-
-::selection {
-  background-color: #07072b;
-  color: white;
-  text-shadow: none;
-}
-
 body {
   display: -ms-grid;
   display: grid;
@@ -74,13 +62,5 @@ textarea {
   outline: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-}
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-select {
-  text-transform: none;
 }
 

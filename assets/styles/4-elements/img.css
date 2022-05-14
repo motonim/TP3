@@ -10,3 +10,40 @@ img {
 .img-box {
     position: relative;
 }
+
+
+.img-wrapper {
+  height: 90%;
+  position: relative
+}
+
+.img-wrapper--link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-bg);
+  opacity: 0;
+  font-size: calc(18px + 0.8vw);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease-out;
+}
+
+.img-wrapper--link:hover,
+.img-wrapper--link:focus {
+  opacity: 1;
+}
+
+.img-wrapper--link:active {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.img-wrapper--img {
+  object-fit: cover;
+  height: 100%;
+}

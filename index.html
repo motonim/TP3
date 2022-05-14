@@ -4,11 +4,15 @@
     <meta charset="utf-8" />
     <title>Restaurant Val-Jalbert | Restaurant Vedge</title>
     <meta name="Description" content="TP 3" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/faviconVedge.svg" type="image/png" />
-    <link rel="stylesheet" href="./assets/styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="./assets/img/faviconVedge.svg" type="image/png" />
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
   </head>
   <body>
     <header>
@@ -20,129 +24,134 @@
               <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise" class="navigation__logo--img" />
             </a>
           </div>
-          <ul class="menu menu-flex">
-            <li><a href="#" class="menu__item">Menu</a></li>
-            <li class="dropdown">
-              <a href="#" class="menu__item">Restaurants</a>
+          <ul class="menu">
+            <li class="menu__item"><a href="#" class="menu__link">Menu</a></li>
+            <li class="menu__item dropdown">
+              <a href="#" class="menu__link">Restaurants</a>
               <ul class="dropdown__content">
-                <li>
-                  <a href="#" class="menu__item dropdown__item">Philosophie</a>
-                  <a href="#" class="menu__item dropdown__item">Trois-Rivières</a>
-                  <a href="#" class="menu__item dropdown__item">Drummondville</a>
-                  <a href="#" class="menu__item dropdown__item">Val-Jalbert</a>
-                  <a href="#" class="menu__item dropdown__item">Dix30</a>
-                  <a href="#" class="menu__item dropdown__item">Toronto</a>
-                  <a href="#" class="menu__item dropdown__item">Berlin</a>
-                </li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">Trois-Rivières</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">Drummondville</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">Val-Jalbert</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">Dix30</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">Toronto</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">Berlin</a></li>
               </ul>
             </li>
-            <li><a href="#" class="menu__item">Commande</a></li>
-            <li><a href="#" class="menu__item">Réservation</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Commande</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Réservation</a></li>
           </ul>
         </div>
       </nav>
-      <!-- navigation ends -->
 
       <!-- hero starts -->
       <figure class="hero">
-        <div class="hero__text">
-          <h1 class="pb-base">Botanique et décadente</h1>
+        <div class="wrapper hero__text">
+          <h1 class="pb-xsmall">Botanique et décadente</h1>
           <p>Savourez les meilleurs plats dans le respect total de la nature</p>
         </div>
       </figure>
-      <!-- hero ends -->
     </header>
 
+    <!-- new section starts -->
     <section class="py-medium">
       <div class="wrapper flex">
         <div class="flex-2">
           <h2 class="pb-base">Profitez d'une expérience unique</h2>
           <p class="pb-xsmall">Réservez votre table dès maintenant.</p>
           <div class="img-wrapper">
-            <img class="img-wrapper--img" src="./assets/img/mimosa.jpg" alt="Mon image" />
-            <a class="link-box img-wrapper--link" href="#"><span>Réserver une table</span></a>
+            <img class="img-wrapper--img" src="./assets/img/mimosa.jpg" alt="image d'un mimosa" />
+            <a class="img-wrapper--link" href="#"><span>Réserver une table</span></a>
           </div>
         </div>
         <div class="flex-1">
           <h2 class="pb-xsmall">Découvrez Notre Spécialité</h2>
           <div class="img-wrapper">
-            <img class="img-wrapper--img" src="./assets/img/menu.jpg" alt="Mon image" />
-            <a class="link-box img-wrapper--link" href="#"><span>Consulter Le Menu</span></a>
+            <img class="img-wrapper--img" src="./assets/img/menu.jpg" alt="image d'un café" />
+            <a class="img-wrapper--link" href="#"><span>Consulter Le Menu</span></a>
           </div>
         </div>
       </div>
     </section>
-    <section class="py-medium border-top">
+    
+    <!-- border top -->
+    <div class="wrapper">
+      <div class="border-top"></div>
+    </div>
+
+    <!-- gallery start -->
+    <section class="py-medium">
       <div class="wrapper">
-        <h2 class="pb-small">Restaurants en vedette</h2>
-        <div class="flex">
+        <h2 class="pb-xsmall">Restaurants en vedette</h2>
+        <div class="flex-gallery">
           <div class="flex__item flex__item--6">
             <h3>Trois-Rivières</h3>
-            <img src="./assets/img/troisRivieres.jpg" alt="Mon image" />
+            <img src="./assets/img/troisRivieres.jpg" alt="Image du resto troisRivieres" />
           </div>
           <div class="flex__item flex__item--6">
             <h3>Drummondville</h3>
-            <img src="./assets/img/drummondville.jpg" alt="Mon image" />
+            <img src="./assets/img/drummondville.jpg" alt="Image du resto drummondville" />
           </div>
           <div class="flex__item flex__item--6">
             <h3>Val-Jalbert</h3>
-            <img src="./assets/img/valJalbert.jpg" alt="Mon image" />
+            <img src="./assets/img/valJalbert.jpg" alt="Image du resto valJalbert" />
           </div>
           <div class="flex__item flex__item--6">
             <h3>Dix30</h3>
-            <img src="./assets/img/dix30.jpg" alt="Mon image" />
+            <img src="./assets/img/dix30.jpg" alt="Image du resto dix30" />
           </div>
           <div class="flex__item flex__item--6">
             <h3>Toronto</h3>
-            <img src="./assets/img/toronto.jpg" alt="Mon image" />
+            <img src="./assets/img/toronto.jpg" alt="Image du resto toronto" />
           </div>
           <div class="flex__item flex__item--6">
             <h3>Berlin</h3>
-            <img src="./assets/img/berlin.jpg" alt="Mon image" />
+            <img src="./assets/img/berlin.jpg" alt="Image du resto berlin" />
           </div>
         </div>
       </div>
     </section>
+
+    <!-- contact starts -->
     <section class="pb-medium contact">
-      <div class="wrapper center-txt flex">
-        <div class="flex-2 contact-box">
-          <div>
-            <h3>Trouvez un restaurant « Vedge » près de chez vous</h3>
-            <form>
-              <label for="champ_adresse"></label>
-              <input required type="text" placeholder="Code postal" name="adresse" id="champ_adresse" />
-              <input type="button" class="btn" value="Rechercher" />
-            </form>
-          </div>
+      <div class="wrapper flex">
+        <div class="flex-2 contact--box bg--dark">
+          <h3 class="pb-xsmall">Trouvez un restaurant « Vedge » près de chez vous</h3>
+          <form class="contact--form">
+            <input class="contact--form-input" required type="text" placeholder="Code postal" name="adresse" id="champ_adresse" />
+            <input type="button" class="btn" value="Rechercher" />
+          </form>
         </div>
-        <div class="flex-1 contact-box">
-          <div>
-            <h3>Vous voulez établir votre propre restaurant ?</h3>
-            <p>Laissez-nous vous convaincre de développer votre propre franchise « Vedge » !</p>
-            <a class="btn" href="#">Contactez-nous</a>
-          </div>
+        <div class="flex-1 contact--box bg--light">
+          <h3 class="pb-base">Vous voulez établir votre propre restaurant ?</h3>
+          <p class="pb-base contact--text">Laissez-nous vous convaincre de développer votre propre franchise « Vedge » !</p>
+          <a class="btn" href="#">Contactez-nous</a>
         </div>
       </div>
     </section>
+
+    <!-- footer starts -->
     <footer class="footer py-xsmall">
-      <div class="wrapper flex">
-        <div class="flex-2 menu-flex">
-          <img src="./assets/img/logoVedgeBlanc.svg" class="footer__logo" alt="logo de l'entreprise" />
+      <div class="wrapper flex-footer">
+        <div class="menu-flex">
+          <a href="index.html">
+            <img src="./assets/img/logoVedgeBlanc.svg" class="footer__logo" alt="logo de l'entreprise" />
+          </a>
         </div>
-        <div class="flex-1 flex">
-          <ul class="">
+        <div>
+          <!-- can we erase this ? -->
+          <!-- <ul class="">
             <li><a href="#">Menu</a></li>
             <li><a href="#">Restaurants</a></li>
             <li><a href="#">Commande</a></li>
             <li><a href="#">Réservation</a></li>
             <li><a href="#">Contact</a></li>
-          </ul>
-          <ul class="">
-            <li><a href="#">Philosophie</a></li>
-            <li><a href="#">Promotions</a></li>
-            <li><a href="#">Presse</a></li>
-            <li><a href="#">Carrière</a></li>
-            <li><a href="#">Franchise</a></li>
+          </ul> -->
+          <ul class="footer__nav">
+            <li class="footer__nav--item"><a href="#" class="footer__nav--link">Philosophie</a></li>
+            <li class="footer__nav--item"><a href="#" class="footer__nav--link">Promotions</a></li>
+            <li class="footer__nav--item"><a href="#" class="footer__nav--link">Presse</a></li>
+            <li class="footer__nav--item"><a href="#" class="footer__nav--link">Carrière</a></li>
+            <li class="footer__nav--item"><a href="#" class="footer__nav--link">Franchise</a></li>
           </ul>
         </div>
       </div>

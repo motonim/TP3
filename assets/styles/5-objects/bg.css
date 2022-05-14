@@ -2,3 +2,10 @@
 /* bg / objects */
 /* ---------------- */
 
+.bg--dark {
+    background-color: var(--clr-contain);
+}
+
+.bg--light {
+    background-color: var(--clr-containSec);
+}

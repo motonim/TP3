@@ -1,21 +1,42 @@
+/* ---------------- */
+/* flex / components */
+/* ---------------- */
 
-.flex-2.contact-box {
-  background-color: var(--clr-contain);
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: var(--space-xsmall);
 }
 
-.flex-1.contact-box {
-  background-color: var(--clr-containSec);
+@media only screen and (min-width:550px) {
+  .flex-gallery {
+    flex-direction: row;
+  }
 }
+
 
 .flex {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
-  /* align-items: inherit; */
-  /* margin-top: var(--marg-resp-s-neg);
-  margin-left: var(--rythm-s-neg); */
   overflow: hidden;
-  gap: var(--rythm-s);
+  gap: var(--space-medium);
+}
+
+@media only screen and (min-width:768px) {
+  .flex {
+    gap: var(--space-xsmall)
+  }
+}
+
+@media only screen and (min-width:960px) {
+  .flex {
+    flex-direction: row;
+  }
 }
 
 
@@ -24,46 +45,51 @@
 }
 
 .flex__item--6 {
-  flex-basis: calc((100% / 1) - var(--rythm-s));
+  flex-basis: calc((100% / 1) - var(--space-xsmall));
 }
 
 @media only screen and (min-width:550px) {
   .flex__item--6 {
-    flex-basis: calc((100% / 2) - var(--rythm-s));
+    flex-basis: calc((100% / 2) - var(--space-xsmall));
   }
 }
 
 @media only screen and (min-width:768px) {
   .flex__item--6 {
-    flex-basis: calc((100% / 3) - var(--rythm-s));
+    flex-basis: calc((100% / 3) - var(--space-xsmall));
   }
 }
 
 @media only screen and (min-width:1024px) {
   .flex__item--6 {
-    flex-basis: calc((100% / 4) - var(--rythm-s));
+    flex-basis: calc((100% / 4) - var(--space-xsmall));
   }
 }
 
 @media only screen and (min-width:1200px) {
   .flex__item--6 {
-    flex-basis: calc((100% / 6) - var(--rythm-s));
+    flex-basis: calc((100% / 6) - var(--space-xsmall));
   }
 }
 
-/* .flex img {
-  display: block;
-  min-width: 190px;
-} */
-.column {
-  flex-direction: column;
-}
 .flex-2 {
-  flex-basis: calc((100% * 2 / 3) - var(--rythm-s));
+  flex-basis: calc((100% * 2 / 3) - var(--space-xsmall));
 }
 .flex-1 {
-  flex-basis: calc((100% / 3) - var(--rythm-s));
+  flex-basis: calc((100% / 3) - var(--space-xsmall));
 }
-/* .flex-6rows > * {
-  flex-basis: calc((100% / 6) - var(--rythm-s));
-} */
+
+
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xsmall);
+}
+
+@media only screen and (min-width:550px) {
+  .flex-footer {
+    flex-direction: row;
+  }
+}

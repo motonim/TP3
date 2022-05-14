@@ -12,11 +12,11 @@ a:focus {
 
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:active {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 

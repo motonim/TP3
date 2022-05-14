@@ -1,0 +1,7 @@
+/* ---------------- */
+/* border / components */
+/* ---------------- */
+
+.border-top {
+    border-top: solid rgba(0, 0, 0, 0.1) 2px;
+}

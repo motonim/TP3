@@ -1,0 +1,30 @@
+/* ---------------- */
+/* contact / components */
+/* ---------------- */
+
+.contact--box {
+  padding: var(--space-medium);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: var(--clr-bg);
+}
+
+.contact--form-input {
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+}
+  
+.contact--text {
+  margin: var(--space-xsmall);
+}
+
+@media only screen and (min-width:550px) {
+  .contact--form-input {
+    margin-right: 15px;
+  }
+}

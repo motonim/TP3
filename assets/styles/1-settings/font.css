@@ -1,0 +1,29 @@
+/* ---------------- */
+/* font / settings */
+/* ---------------- */
+
+:root {
+    --font-size-default: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    :root {
+        --font-size-default: 2vw;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    :root {
+        --font-size-default: 1.75vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    :root {
+        --font-size-default: 1.5vw;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    :root {
+        --font-size-default: 1.25vw;
+    }
+}
+
