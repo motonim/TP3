@@ -15,33 +15,124 @@
     <link rel="stylesheet" href="./assets/styles/main.css">
   </head>
   <body>
-    <header>
-      <!-- navigation starts -->
-      <nav class="navigation">
-        <div class="wrapper menu-flex">
-          <div class="navigation__logo menu-flex">
+    <header class="header">
+      <!-- <div class="navigation"> -->
+        <!-- navigation desktop -->
+        <!-- <nav class="menu desktop-menu">
+          <div class="wrapper menu-flex">
+            <div class="navigation__logo menu-flex">
+              <a href="index.html">
+                <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise" class="navigation__logo--img" />
+              </a>
+            </div>
+            <ul class="menu desktop-item-list">
+              <li class="menu__item"><a href="#" class="menu__link">Menu</a></li>
+              <li class="menu__item dropdown">
+                <a href="#" class="menu__link">Restaurants</a>
+                <ul class="dropdown__content">
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Trois-Rivières</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Drummondville</a></li>
+                  <li class="dropdown__item"><a href="./Val-Jalbert.html" class="dropdown__link">Val-Jalbert</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Dix30</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Toronto</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Berlin</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a href="#" class="menu__link">Commande</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Réservation</a></li>
+            </ul>
+          </div>
+          <a href="javascript:void(0)" class="menu-trigger">
+            <div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </a>
+        </nav>
+
+        <nav class="menu mobile-menu">
+          <div class="wrapper menu-flex">
+            <div class="navigation__logo menu-flex">
+              <a href="index.html">
+                <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise" class="navigation__logo--img" />
+              </a>
+            </div>
+            <ul class="menu">
+              <li class="menu__item"><a href="#" class="menu__link">Menu</a></li>
+              <li class="menu__item dropdown">
+                <a href="#" class="menu__link">Restaurants</a>
+                <ul class="dropdown__content">
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Trois-Rivières</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Drummondville</a></li>
+                  <li class="dropdown__item"><a href="./Val-Jalbert.html" class="dropdown__link">Val-Jalbert</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Dix30</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Toronto</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Berlin</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a href="#" class="menu__link">Commande</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Réservation</a></li>
+            </ul>
+          </div>
+
+      </div> -->
+
+      
+      <!-- LOGO & NAVIGATION -->
+      <div class="header__navigation">
+        <nav class="menu desktop-menu">
+          <div class="menu__logo">
             <a href="index.html">
-              <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise" class="navigation__logo--img" />
+              <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise"/>
             </a>
           </div>
-          <ul class="menu">
-            <li class="menu__item"><a href="#" class="menu__link">Menu</a></li>
-            <li class="menu__item dropdown">
-              <a href="#" class="menu__link">Restaurants</a>
-              <ul class="dropdown__content">
-                <li class="dropdown__item"><a href="#" class="dropdown__link">Trois-Rivières</a></li>
-                <li class="dropdown__item"><a href="#" class="dropdown__link">Drummondville</a></li>
-                <li class="dropdown__item"><a href="#" class="dropdown__link">Val-Jalbert</a></li>
-                <li class="dropdown__item"><a href="#" class="dropdown__link">Dix30</a></li>
-                <li class="dropdown__item"><a href="#" class="dropdown__link">Toronto</a></li>
-                <li class="dropdown__item"><a href="#" class="dropdown__link">Berlin</a></li>
+          <ul class="menu desktop-item-list">
+            <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Restaurants</a>
+              <ul class="dropdown">
+                <li class="menu__item"><a class="dropdown__link" href="#">Trois-Rivière</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Drummondville</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="./Val-Jalbert.html">Val-Jalbert</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Dix30</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Toronto</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Berlin</a></li>
               </ul>
             </li>
-            <li class="menu__item"><a href="#" class="menu__link">Commande</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Réservation</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Commander</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Reserver</a></li>
           </ul>
-        </div>
-      </nav>
+
+          <a href="javascript:void(0)" class="menu-trigger">
+            <div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </a>
+        </nav>
+
+        <nav class="menu mobile-menu">
+          <ul>
+            <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Restaurants</a>
+              <ul class="dropdown">
+                <li class="menu__item"><a class="dropdown__link" href="#">Trois-Rivière</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Drummondville</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="./Val-Jalbert.html">Val-Jalbert</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Dix30</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Toronto</a></li>
+                <li class="menu__item"><a class="dropdown__link" href="#">Berlin</a></li>
+              </ul>
+            </li class="menu__item">
+            <li class="menu__item"><a class="menu__link" href="#">Commander</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Reserver</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+
+
 
       <!-- hero starts -->
       <figure class="hero">
@@ -138,14 +229,7 @@
           </a>
         </div>
         <div>
-          <!-- can we erase this ? -->
-          <!-- <ul class="">
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Restaurants</a></li>
-            <li><a href="#">Commande</a></li>
-            <li><a href="#">Réservation</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul> -->
+          
           <ul class="footer__nav">
             <li class="footer__nav--item"><a href="#" class="footer__nav--link">Philosophie</a></li>
             <li class="footer__nav--item"><a href="#" class="footer__nav--link">Promotions</a></li>
@@ -156,5 +240,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- fichier script -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
