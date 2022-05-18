@@ -13,7 +13,6 @@
 
 /* 4-ELEMENTS  */
 @import url(./4-elements/heading.css);
-@import url(./4-elements/img.css);
 @import url(./4-elements/link.css);
 @import url(./4-elements/list.css);
 @import url(./4-elements/typo.css);
@@ -30,7 +29,17 @@
 @import url(./6-components/grid.css);
 @import url(./6-components/menu.css);
 @import url(./6-components/hero.css);
+@import url(./6-components/img.css);
 @import url(./6-components/border.css);
 @import url(./6-components/contact.css);
 
 /* 7-UTILITIES  */
+
+
+
+.tabRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

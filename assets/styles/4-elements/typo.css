@@ -2,8 +2,6 @@
 /* text / elements */
 /* ---------------- */
 
-
-p,
 a,
 form * {
   font-size: calc(14px + 0.2vw);
@@ -21,6 +19,10 @@ h2 {
 
 h3 {
   font-size: max(22px, calc(var(--font-size-default) * 1.2));
+}
+
+h4 {
+  font-size: max(20px, calc(var(--font-size-default) * 1.1));
 }
 
 p {

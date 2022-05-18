@@ -1,0 +1,261 @@
+/* ---------------- */
+/* menu / components */
+/* ---------------- */
+
+
+.navigation {
+  background-color: var(--clr-bg);
+  text-decoration: none;
+  top: 0;
+  position: sticky;
+  text-align: center;
+}
+  
+@media only screen and (min-width:768px) {
+  .navigation {
+    text-align: inherit;
+  }
+}
+
+.navigation__logo--img {
+  max-width: 130px;
+}
+.navigation__logo {
+  padding: 15px 0;
+}
+
+
+/* Menu --------------------  */
+
+@media only screen and (min-width:768px) {
+    
+  .menu-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+}
+
+.menu__item {
+  padding-bottom: 15px;
+}
+
+@media only screen and (min-width:960px) {
+  .menu-flex {
+    align-items: center;
+    flex-direction: row;
+  }
+  .menu {
+    align-items: flex-end;
+    
+  }
+  .menu__item {
+    padding-bottom: 0px;
+  }
+  .menu__item + .menu__item {
+    margin-left: 20px;
+  }
+}
+
+
+
+.menu__item:nth-child(2) {
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width:768px) {
+  .menu__item:nth-child(2) {
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width:960px) {
+  .menu__item:nth-child(2) {
+    padding-bottom: 0px;
+  }
+}
+
+.menu__link {
+  border-radius: 5rem;
+  color: var(--clr-bgSec);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+@media only screen and (min-width:768px){
+  .menu__link {
+    padding: 10px 20px;
+  }
+}
+
+.menu__link:hover {
+    background-color: var(--clr-link);
+    color: var(--clr-bg);
+}
+
+
+
+
+/* ***************  Menu déroulant  *************** */
+
+.dropdown__content {
+  background-color: var(--clr-bg);
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+@media only screen and (min-width:550px) {
+  .dropdown__content {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .dropdown__content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left: -10px;
+    top: 38px;
+    margin: 0;
+    padding: 20px 0;
+  }
+}
+
+.dropdown__item {
+  padding: 0 10px;
+  margin: 5px;
+}
+
+@media only screen and (min-width:768px) {
+  
+  .dropdown__item + .dropdown__item {
+    margin-top: 20px;
+  }
+}
+
+.dropdown__link {
+  border-radius: 5rem;
+  color: var(--clr-bgSec);
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.dropdown__link:hover {
+  background-color: var(--clr-link);
+  color: var(--clr-bg);
+}
+
+@media only screen and (min-width:768px) {
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown:hover .dropdown__content {
+    display: block;
+  }
+
+  .dropdown__link {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+}
+
+/* menu mobile */
+
+/* .navigation {  
+  background-color: var(--color-primary);
+  flex-direction: row;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+} */
+
+.navigation .menu-trigger
+{
+  padding: 20px 30px;
+  position: relative;
+  transition: .3s all;
+}
+
+
+.navigation .menu-trigger .bar
+{
+  background-color: var(--color-dark);
+  width: 32px;
+  height: 2px;
+  transition: .3s all;
+}
+
+.menu-trigger:hover {
+  background-color: var(--color-secondary);
+}
+
+
+.navigation .menu-trigger .bar:nth-child(2)
+{
+  margin: 8px 0;
+  transition: .1s all;
+}
+
+.navigation .menu-trigger.active .bar:nth-child(1)
+{
+  transform:  rotate(45deg);
+}
+
+.navigation .menu-trigger.active .bar:nth-child(2)
+{
+  visibility: hidden;
+  margin: 0;
+}
+
+.navigation .menu-trigger.active .bar:nth-child(3)
+{
+  transform: translate(0, -4px) rotate(-45deg);
+}
+
+
+@media (min-width: 768px)
+{
+  .navigation .desktop-menu .desktop-item-list
+  {
+    display: flex;
+  }
+
+  ul li ul.dropdown
+  {
+    position: absolute;
+    margin-top: calc(20px + 18px + 20px);
+  }
+
+  .navigation .menu-trigger
+  {
+    display: none;
+  }
+
+  .menu__logo {
+    font-size: 35px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
