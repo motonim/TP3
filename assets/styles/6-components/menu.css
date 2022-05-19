@@ -22,7 +22,6 @@
   max-width: 100px;
 }
 
-
 @media (min-width: 768px)
 { 
   .menu__logo {
@@ -91,12 +90,6 @@
   position: fixed;
   width: 100%;
   top: 88px;
-  transform: translateY(-150%);
-  transition: .3s all;
-  overflow: auto;
-  z-index: 450;
-  height: 100%;
-  overflow: auto;
 }
 
 .header__navigation .mobile-menu.show
@@ -138,8 +131,6 @@ li {
 /* items */
 .menu__item {
   padding: 20px 10px;
-  position: relative;
-  width: fit-content;
 }  
   
 
