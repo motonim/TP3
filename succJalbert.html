@@ -18,64 +18,64 @@
     <header class="header">      
       <!-- LOGO & NAVIGATION -->
       <div class="header__navigation">
-        <nav class="menu desktop-menu">
-          <div class="menu__logo">
-            <a href="index.html">
-              <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise"/>
-            </a>
-          </div>
-          <ul class="menu desktop-item-list">
-            <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Restaurants</a>
-              <ul class="dropdown">
-                <li class="menu__item"><a class="dropdown__link" href="#">Trois-Rivière</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Drummondville</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="./Val-Jalbert.html">Val-Jalbert</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Dix30</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Toronto</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Berlin</a></li>
-              </ul>
-            </li>
-            <li class="menu__item"><a class="menu__link" href="#">Commander</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Reserver</a></li>
-          </ul>
+        <div class="wrapper">
 
-          <a href="javascript:void(0)" class="menu-trigger">
-            <div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+          <nav class="menu desktop-menu">
+            <div class="menu__logo">
+              <a href="index.html">
+                <img src="./assets/img/logoVedge.svg" alt="logo de l'entreprise"/>
+              </a>
             </div>
-          </a>
-        </nav>
+            <ul class="menu desktop-item-list">
+              <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Restaurants</a>
+                <ul class="dropdown">
+                  <li class="menu__item"><a class="dropdown__link" href="#">Trois-Rivière</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Drummondville</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="./Val-Jalbert.html">Val-Jalbert</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Dix30</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Toronto</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Berlin</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a class="menu__link" href="#">Commander</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Reserver</a></li>
+            </ul>
 
-        <nav class="menu mobile-menu">
-          <ul>
-            <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Restaurants</a>
-              <ul class="dropdown">
-                <li class="menu__item"><a class="dropdown__link" href="#">Trois-Rivière</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Drummondville</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="./Val-Jalbert.html">Val-Jalbert</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Dix30</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Toronto</a></li>
-                <li class="menu__item"><a class="dropdown__link" href="#">Berlin</a></li>
-              </ul>
-            </li class="menu__item">
-            <li class="menu__item"><a class="menu__link" href="#">Commander</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Reserver</a></li>
-          </ul>
-        </nav>
+            <a href="javascript:void(0)" class="menu-trigger">
+              <div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </a>
+          </nav>
+        </div>
+          <nav class="menu mobile-menu">
+            <ul>
+              <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Restaurants</a>
+                <ul class="dropdown">
+                  <li class="menu__item"><a class="dropdown__link" href="#">Trois-Rivière</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Drummondville</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="./Val-Jalbert.html">Val-Jalbert</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Dix30</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Toronto</a></li>
+                  <li class="menu__item"><a class="dropdown__link" href="#">Berlin</a></li>
+                </ul>
+              </li class="menu__item">
+              <li class="menu__item"><a class="menu__link" href="#">Commander</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Reserver</a></li>
+            </ul>
+          </nav>
+        
       </div>
-      
-
-
 
       <!-- hero starts -->
-      <figure class="hero">
-        <div class="wrapper hero__text">
+      <figure class="hero-sub">
+        <div class="wrapper hero-sub__text">
           <h1 class="pb-xsmall">Vedge Val-Jalbert</h1>
-          <p>Toutes les réservations doivent être faites via notre site web.</p>
+          <p class="pb-xsmall">Toutes les réservations doivent être faites via notre site web.</p>
           <a href="#" class="btn">Réservez maintenant</a>
         </div>
       </figure>
@@ -83,16 +83,16 @@
 
     <!-- new section starts -->
     <section class="py-medium">
-      <div class="wrapper grid grid--3">
-        <div class="grid__item bg--dark">
+      <div class="wrapper flex__3col">
+        <div class="flex__3col__item bg--dark">
           <h2 class="pb-xsmall">Localisation de la franchise</h2>
           <div>
-              <h3>Vedge | Val-Jalbert</h3>
+              <h3 class="pb-xsmall">Vedge | Val-Jalbert</h3>
               <p>500 rue de la Montagne</p>
           </div>
           <a href="#" class="btn">Ouvrir sur Google Maps</a>
         </div>
-        <div class="grid__item bg--light">
+        <div class="flex__3col__item bg--light">
           <h2 class="pb-xsmall">Heurs d'ouverture</h2>
           <dl class="tabRow">
               <dt>Lundi</dt><dd>11:30 - 22:00</dd>
@@ -116,75 +116,83 @@
               <dt>Dimanche</dt><dd>10:00 - 22:00</dd>
           </dl>
         </div>
-        <div class="grid__item bg--dark">
+        <div class="flex__3col__item bg--dark">
           <h2 class="pb-xsmall">Menus</h2>
-          <h3>Régalez-vous en bonne conscience !</h3>
-          <h4>Menu jour et soir</h4>
-          <p>Du lundi au vendredi, samedi et dimanche soir</p>
-          <h4>Menu brunch</h4>
-          <p>Samedi et dimanche de 10 h à 15 h</p>
-          <h4> Menu boissons</h4>
-          <p>Vins natures et biologiques, bières et cocktails botaniques</p>
-          <h4>Menu pour emporter</h4>
-          <p>Une grande sélection de plats pour manger au bureau ou à la maison</p>
+          <h3 class="pb-xsmall">Régalez-vous en bonne conscience !</h3>
+          <h4 class="text--small">Menu jour et soir</h4>
+          <p class="text--small pb-base">Du lundi au vendredi, samedi et dimanche soir</p>
+          <h4 class="text--small">Menu brunch</h4>
+          <p class="text--small pb-base">Samedi et dimanche de 10 h à 15 h</p>
+          <h4 class="text--small"> Menu boissons</h4>
+          <p class="text--small pb-base">Vins natures et biologiques, bières et cocktails botaniques</p>
+          <h4 class="text--small">Menu pour emporter</h4>
+          <p class="text--small pb-xsmall">Une grande sélection de plats pour manger au bureau ou à la maison</p>
           <a href="#" class="btn">Menu complet</a>
         </div>
       </div>
     </section>
-    
+
+    <!-- critique starts -->
+    <section class="pb-medium">
+      <div class="wrapper">
+        <div class="critique">
+          <div class="text-wrapper">
+            <h2 class="pb-xsmall">Les critiques sont dithyrambiques</h2>
+            <p class="text--small pb-xsmall">Absolument délicieux. Je ne suis pas végétalienne et c’était de loin l’un des meilleurs repas que j’ai pris à Val-Jalbert. Prenez le « hamburger » de la maison avec des frites de patates douces ou le « fromage grillé ». Nous étions là pour un déjeuner tardif un lundi et le service était amical et rapide. L’intérieur est également magnifique. J’adorais tout à ce sujet !</p>
+            <div class="flex__row">
+              <p class="critique__name">— Sarah O’Maillet</p>
+              <img src="./assets/img/profile.jpg" alt="profile picture of Sarah O'Maillet" class="critique__name-img">
+            </div>
+            <a class="btn btn--clr" href="#">Voir toutes les critiques</a>
+          </div>
+          <div class="img-wrapper">
+            <img src="./assets/img/profile.jpg" alt="profile picture of Sarah O'Maillet" class="critique__img">
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!-- promo starts -->
+    <section class="pb-medium">
+      <div class="wrapper flex promo">
+        <div class="promo__item">
+          <h3 class="pb-xsmall">Profitez de nos promottions</h3>
+          <p class="pb-base">Laissez-nous vous convaincre de développer votre propre franchise « Vedge » !</p>
+          <div class="img-wrapper">
+            <img src="./assets/img/mimosa2.jpg" alt="photo of two glasses of mimosa" class="promo__img" >
+          </div>
+        </div>
+        <div class="promo__item">
+          <h3 class="pb-base">Réserver pour un groupe</h3>
+          <p class="pb-base text--small">« Vedge » Val-Jalbert peut accueillir des groupes jusqu’à 24 personnes. Neuf personnes et plus? Consultez notre page pour les groupes</p>
+          <div class="img-wrapper">
+            <img src="./assets/img/groupTable.jpg" alt="four glasses of wine" class="promo__img" >
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- border top -->
     <div class="wrapper">
       <div class="border-top"></div>
     </div>
 
-    <!-- gallery start -->
+    <!-- gallery starts -->
     <section class="py-medium">
       <div class="wrapper">
-        <h2 class="pb-xsmall">Restaurants en vedette</h2>
-        <div class="flex-gallery">
-          <div class="flex__item flex__item--6">
-            <h3>Trois-Rivières</h3>
-            <img src="./assets/img/troisRivieres.jpg" alt="Image du resto troisRivieres" />
+        <h2 class="pb-xsmall">Gallerie photo</h2>
+        <div class="flex__3col">
+          <div class="flex__3col__item--noPadding">
+            <img src="./assets/img/gallery1.jpg" alt="">
           </div>
-          <div class="flex__item flex__item--6">
-            <h3>Drummondville</h3>
-            <img src="./assets/img/drummondville.jpg" alt="Image du resto drummondville" />
+          <div class="flex__3col__item--noPadding">
+            <img src="./assets/img/gallery2.jpg" alt="">
           </div>
-          <div class="flex__item flex__item--6">
-            <h3>Val-Jalbert</h3>
-            <img src="./assets/img/valJalbert.jpg" alt="Image du resto valJalbert" />
-          </div>
-          <div class="flex__item flex__item--6">
-            <h3>Dix30</h3>
-            <img src="./assets/img/dix30.jpg" alt="Image du resto dix30" />
-          </div>
-          <div class="flex__item flex__item--6">
-            <h3>Toronto</h3>
-            <img src="./assets/img/toronto.jpg" alt="Image du resto toronto" />
-          </div>
-          <div class="flex__item flex__item--6">
-            <h3>Berlin</h3>
-            <img src="./assets/img/berlin.jpg" alt="Image du resto berlin" />
+          <div class="flex__3col__item--noPadding">
+            <img src="./assets/img/gallery3.jpg" alt="">
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- contact starts -->
-    <section class="pb-medium contact">
-      <div class="wrapper flex">
-        <div class="flex-2 contact--box bg--dark">
-          <h3 class="pb-xsmall">Trouvez un restaurant « Vedge » près de chez vous</h3>
-          <form class="contact--form">
-            <input class="contact--form-input" required type="text" placeholder="Code postal" name="adresse" id="champ_adresse" />
-            <input type="button" class="btn" value="Rechercher" />
-          </form>
-        </div>
-        <div class="flex-1 contact--box bg--light">
-          <h3 class="pb-base">Vous voulez établir votre propre restaurant ?</h3>
-          <p class="pb-base contact--text">Laissez-nous vous convaincre de développer votre propre franchise « Vedge » !</p>
-          <a class="btn" href="#">Contactez-nous</a>
-        </div>
+        <a class="btn btn--clr" href="#">Voir toutes les images</a>
       </div>
     </section>
 
@@ -197,7 +205,6 @@
           </a>
         </div>
         <div>
-          
           <ul class="footer__nav">
             <li class="footer__nav--item"><a href="#" class="footer__nav--link">Philosophie</a></li>
             <li class="footer__nav--item"><a href="#" class="footer__nav--link">Promotions</a></li>

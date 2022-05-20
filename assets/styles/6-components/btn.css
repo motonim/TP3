@@ -24,3 +24,9 @@
   opacity: 80%;
 }
 
+.btn--clr {
+  background-color: var(--clr-link);
+  color: var(--clr-bg);
+  display: block;
+  margin-top: 30px;
+}

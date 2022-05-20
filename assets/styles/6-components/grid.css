@@ -15,15 +15,6 @@
     
 }
 
-.grid__item {
-    padding: 50px;
-    color: var(--clr-bg);
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 600px;
-}
-
 
 .grid--2,
 .grid--3,
