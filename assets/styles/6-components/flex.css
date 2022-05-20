@@ -143,3 +143,7 @@
   display: flex;
   align-items: center;
 }
+
+.flex__3col__item > .flex__row {
+  justify-content: space-between;
+}

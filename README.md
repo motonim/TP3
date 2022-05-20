@@ -1,22 +1,8 @@
-# TP3 Creation(Simon)
+# TP3 Creation - Argumentaire
 
-### To Do
-- menu burger
-- 
-- prototype
-
-- dans argumentaire :
-- parler du footer duquel on a enlever le doublon pcq c inutile.
-- parler du fait qu'on a improve le menu pour le rendre responsive
-
-<br>
-
-___
-
-<br>
 
 ## 1 - fichiers CSS
-Pour commencer, nous avons réorganiser complètement le CSS afin de le rendre conforme à la methode ITCSS.
+Pour commencer, nous avons réorganiser complètement le CSS afin de le rendre conforme à la methode ITCSS et la nomenclature conforme à la methode BEM.
 </br>
 
 Il a fallu passer au travers des fichiers. Ceux-ci n'avaient pas de structure claire et n'étaient pas nommés de manière représentative. Nous avons du repartir de zéro, avec la bonne structure ITCSS et replacer les éléments dans les fichiers appropriés.
@@ -38,11 +24,41 @@ Nous avons également utilisés les espacements tel qu'appris en cours. Dans le 
 </br>
 
 Ceci est seulement un exemple parmi tant d'autres qui démontre non seulement la rigueur est questionnable, mais que tout au long de la page, il n'y a pas un très bon contrôle sur l'uniformité. Cela a été travaillé piéce par piéce et c'est un aspect que nous avons amélioré en utilisant des classes plus génériques pour avoir un meilleur contrôle et moins de problèmes en responsive.
+</br>
 
+La seule chose que nous avons retiré du projet est le menu primaire présent dans le footer. Ceci faisait de la redondance parce que l'information se trouve déjà dans le menu du header. Donc pour alléger le contenu et rendre l'information plus claire nous avons retiré le doublon d'information. Aussi dans le sous-menu de la navigation principale, nous avons retiré "philosophie" de le liste des restaurants...
+
+<br>
+
+___
+
+<br>
 
 ## 3 - Responsive
-Le responsive a été retravaillé
-Menu
+Nous avons retravaillé plusieurs détails du responsif. Le plus gros changement a été fait sur le menu. Nous avons ajouté un breakpoint dans lequel le menu se transforme en menu burger pour le format tablette et mobile. Ainsi nous avons créé le menu responsif qui ne l'était pas avant.
+
+<br>
+
+___
+
+<br>
+
+## 4 - 2e Page - SuccJalbert
+
+Dans la deuxième page du projet, nous avons pu réutiliser la plupart des composantes et classes crées pour la page d'accueil.
+<br>
+
+Les composantes et les classes que nous avons du ajouter sont les suivantes :
+<br>
+
+Classes "flex__3col", "flex__3col_item" pour la "Section info succursale" car nous n'avions pas de diposition similaire. 
+
+Classe "text--small" et "text-wrapper", car nous avions du texte de plus petite taille. 
+
+composante "Promo" à été créée, car nous ne l'avions pas dans la page d'accueil. 
+
+Et pour finir le "Hero-sub" à été ajouté parce que la composition et le contenu de celui-ci sont différente du Hero de l'accueil.
+
 
 <br>
 

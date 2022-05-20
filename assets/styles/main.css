@@ -37,12 +37,3 @@
 @import url(./6-components/promo.css);
 
 /* 7-UTILITIES  */
-
-
-
-.tabRow {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
